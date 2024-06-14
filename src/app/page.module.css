@@ -1,0 +1,123 @@
+.outerdiv{
+    background: url('../asset/images/weather.jpg');
+    background-size: cover;
+    background-repeat: none;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+.firstdiv{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.searchbar{
+    display: flex;
+    background-color: rgba(0,0,0,0.498);
+    border-radius: 28px;
+    overflow: hidden;
+    border: none;
+    align-items: center;
+    margin: auto;
+    width: 300px;
+    padding: auto 10px;
+}
+.searchbar input{
+    width: 300px;
+    padding: 20px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #000;
+    font-size: 18px;
+}
+.searchbar button{
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #000;
+}
+.row{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.row .section1 {
+    background-color: rgba(0,0,0,0.498);
+    border-radius: 10px;
+    padding: 20px;
+    width: 40%;
+    margin: 10px;
+}
+.row .timediv{
+    background-color: rgba(0,0,0,0.498);
+    border-radius: 10px;
+    padding: 20px;
+    width: 40%;
+    margin: 10px;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+}
+.time{
+    font-size: 60px;
+    color: rgb(248, 255, 186);
+}
+.section2 {
+    background-color: rgba(0,0,0,0.498);
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.section21{
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.weathericon{
+    width: 100px;
+    height: 100px;
+    color: #fff;
+}
+.section11{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.temp{
+    color: rgb(248, 255, 186);
+    font-size: 70px;
+}
+.temp span{
+    font-size: 30px;
+    color: #fff;
+}
+.city{
+    font-size: 30px;
+    font-style: italic;
+    color: rgb(221,221,221);
+}
+.weathertype{
+    font-size: 40px;
+    color: rgba(255, 255, 255);
+}
+.head1{
+    font-size: 15px;
+    color: #fff;
+}
+.head2{
+    font-size: 25px;
+    color: rgb(240, 255, 141);
+}
